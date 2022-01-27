@@ -3,4 +3,4 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
-print("hello word")
+st.write("hellow word")
