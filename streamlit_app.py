@@ -13,4 +13,4 @@ st.title("This is my first app")
 st.write("hellow word")
 st.info("This is my first homework")
 if st.button('change color'):
-  <*font color=‘red’>THIS TEXT WILL BE RED</*font>, unsafe_allow_html=True)
+  st.markdown(<*font color=‘red’>THIS TEXT WILL BE RED</*font>, unsafe_allow_html=True)
