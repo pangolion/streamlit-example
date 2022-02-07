@@ -7,8 +7,9 @@ import requests
 
 data = '{"model":"default"}'
 response = requests.post('http://colormind.io/api/', data=data)
-test = response.json()
-st.write(test['result'][1])
+color_list = response.json()
+st.write(test['result'][1][1])
+
 c = '<p style="font-family:sans-serif; color:rgb(214,78,69); font-size: 42px;"> color</p>'
 st.title("This is my first app")
 st.write("hellow word")
