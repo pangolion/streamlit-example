@@ -12,4 +12,4 @@ data = '{"model":"default"}'
 response = requests.post('http://colormind.io/api/', data=data)
 response.json()
 
-print(data)
+print(response)
