@@ -9,8 +9,9 @@ data = '{"model":"default"}'
 response = requests.post('http://colormind.io/api/', data=data)
 response.json()
 
+c = '<p style="font-family:sans-serif; color:Green; font-size: 42px;"> color</p>'
 st.title("This is my first app")
 st.write("hellow word")
 st.info("This is my first homework")
 if st.button('change color'):
-  st.markdown(<*font color=‘red’>THIS TEXT WILL BE RED</*font>, unsafe_allow_html=True)
+  st.markdown(c, unsafe_allow_html=True)
