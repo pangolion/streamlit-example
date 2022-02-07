@@ -9,7 +9,7 @@ data = '{"model":"default"}'
 response = requests.post('http://colormind.io/api/', data=data)
 response.json()
 
-c = '<p style="font-family:sans-serif; color:[49,47,49]; font-size: 42px;"> color</p>'
+c = '<p style="font-family:sans-serif; color:[235,198,126]; font-size: 42px;"> color</p>'
 st.title("This is my first app")
 st.write("hellow word")
 st.info("This is my first homework")
