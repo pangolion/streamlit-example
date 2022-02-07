@@ -18,4 +18,4 @@ st.title("This is my first app")
 st.write("hellow word")
 st.info("This is my first homework")
 if st.button('change color'):
-  st.markdown(c, unsafe_allow_html=True)
+ 
