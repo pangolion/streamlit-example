@@ -17,4 +17,4 @@ st.title("This is my first app")
 st.write("hellow word")
 st.info("This is my first homework")
 if st.button('change color'):
- st.markdown('<p style="font-family:sans-serif; color:rgb(R,G,B); font-size: 42px;">color changed</p>',unsafe_allow_html=True)
+ st.markdown('<p style="font-family:sans-serif; color:rgb(%d,%d,%d); font-size: 42px;">color changed</p>' %(R,G,B),unsafe_allow_html=True)
