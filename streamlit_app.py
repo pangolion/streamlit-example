@@ -5,5 +5,5 @@ import pandas as pd
 import streamlit as st
 import requests
 
-data = pd.read_csv("DataCoSupplyChainDataset.csv")
+data = pd.read_csv("./DataCoSupplyChainDataset.csv")
  
